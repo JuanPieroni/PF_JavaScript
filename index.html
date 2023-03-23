@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CoderShop</title>
+    <title>Yaru Cosmetica - Shop</title>
     <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -16,10 +16,25 @@
 <body>
     
     <header>
-        <h1 id="titulo" class="titulo">Tienda Tuya</h1>
-        <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
+        <h1 id="titulo" class="titulo">Cosmetica Artesanal - Shop</h1>
+        <button id="boton-carrito"><i class="fas fa-duotone fa-shopping-cart fa-sm"></i><span id="contadorCarrito">0</span></button>
     </header>
 
+    <main id="contenedor-productos" class="container-fluid"></main>
+    <div id="contenedor-fetch" class: "container-fluid"> 
+
+    </div>
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Carrito</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+            </div>
+            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+            <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+        </div>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
 </body>
