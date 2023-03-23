@@ -1,0 +1,18 @@
+let stockProductos = [
+    { id: 1, nombre: "Acido Hialuronico", cantidad: 1, desc: "Ideal para las arrugas", precio: 1000, piel: "Seca", img: `./img/acid.jpg` },
+    { id: 1, nombre: "Acido Hialuronico", cantidad: 1, desc: "Ideal para las arrugas", precio: 1000, piel: "Mixta", img: `./img/acid.jpg` },
+    { id: 1, nombre: "Aceite Cannabis", cantidad: 1, desc: "Analgesico Natural", precio: 1000, piel: "Seca", img: `./img/aceite.jpg` },
+    { id: 1, nombre: "Aceite Cannabis", cantidad: 1, desc: "Analgesico Natural", precio: 1000, piel: "Grasa", img: `./img/aceite.jpg` },
+    { id: 1, nombre: "Acondicionador", cantidad: 1, desc: "Sin aditivos!! ", precio: 1000, piel: "Seco", img: `./img/acond.png` },
+    { id: 1, nombre: "Acondicionador", cantidad: 1, desc: "Eco Friendly", precio: 1000, piel: "Graso", img: `./img/acond.png` },
+    { id: 1, nombre: "Combo + Jabonera", cantidad: 1, desc: "Aprovecha esta oferta!", precio: 1000, piel: "Seca", img: `./img/combo2.jpg` },
+    { id: 1, nombre: "Combo + Jabonera", cantidad: 1, desc: "Aprovecha esta oferta!", precio: 1000, piel: "Grasa", img: `./img/combo2.jpg` },
+    { id: 1, nombre: "Desodorante Natural", cantidad: 1, desc: "No deja manchas!", precio: 1000, piel: "Seca", img: `./img/deso.jpg` },
+    { id: 1, nombre: "Desodorante Natural", cantidad: 1, desc: "No obstruye los poros", precio: 1000, piel: "Grasa", img: `./img/deso.jpg` },
+    { id: 1, nombre: "Mascarilla Facial", cantidad: 1, desc: "Para Pieles grasas", precio: 1000, piel: "Grasa", img: `./img/masca.jpg` },
+    { id: 1, nombre: "Mascarilla Facial", cantidad: 1, desc: "Para pieles sensibles", precio: 1000, piel: "Mixta", img: `./img/masca.jpg` },
+    { id: 1, nombre: "Crema Nicacinamida", cantidad: 1, desc: "Ultimos en stock!!", precio: 1000, piel: "Grasa", img: `./img/niaci.jpeg` },
+    { id: 1, nombre: "Crema Nicacinamida", cantidad: 1, desc: "Ultimos en stock!!", precio: 1000, piel: "Seca", img: `./img/niaci.jpeg` },
+    { id: 1, nombre: "Shampoo Solido", cantidad: 1, desc: "Biodegradables", precio: 1000, piel: "Seca", img: `./img/shampoo.jpeg` },
+    { id: 1, nombre: "Shampoo Solido", cantidad: 1, desc: "100% Artesanal", precio: 1000, piel: "Mixta", img: `./img/shampoo.jpeg` },
+]  
